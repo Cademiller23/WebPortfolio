@@ -36,11 +36,9 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        On my Projects Page below, you'll find a curated collection of programming projects that,
+        while not numerous, have significantly contributed to my growth as a desired software engineer. Every
+        Project displayed has a bigger scope of challenges which has enhanced my critical thinkng and problem solving skills.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>

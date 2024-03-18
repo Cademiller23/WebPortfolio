@@ -22,7 +22,7 @@ const AnimatedBackground = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(270deg, grey, #E6E6F5, black);
+  background: linear-gradient(270deg, grey, #F0F0FF, black);
   background-size: 1000% 400%;
   animation: ${animatedBackground} 10s ease infinite;
   z-index: -1;

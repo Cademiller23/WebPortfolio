@@ -1,10 +1,9 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
-import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
-import { Helicopter, Island, Sky, Galaxy, Asteroid } from "../models";
+import { Shuttle, Island, Sky, Galaxy, Asteroid } from "../models";
 
 const Home = () => {
   const galaxyPosition = [4.5, 1.6, 0];
@@ -28,10 +27,12 @@ const Home = () => {
 
     return () => clearInterval(intervalId);
 }, []);
-  const audioRef = useRef(new Audio(sakura));
+/*
+Music
+  const audioRef = useRef(new Audio());
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
-
+*/
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
@@ -123,14 +124,14 @@ const Home = () => {
             rotation={[0.1, 4.7077, 0]}
             scale={islandScale}
           />
-          <Helicopter
+          <Shuttle
             position={biplanePosition}
             rotation={[0, 20.1, 0]}
             scale={biplaneScale}
           />
         </Suspense>
       </Canvas>
-
+{/* IF you want to add music 
       <div className='absolute bottom-2 left-2'>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
@@ -139,6 +140,7 @@ const Home = () => {
           className='w-10 h-10 cursor-pointer object-contain'
         />
       </div>
+      */}
     </section>
   );
 };

@@ -11,6 +11,7 @@ import fr from './fire.png';
 import BC from './BC.png';
 import GS from './GS.png';
 import sent from './sent.png';
+import wilshire from './Wilshire.jpg'
 
 export {
     hero,
@@ -25,5 +26,6 @@ export {
     fr,
     BC, // Make sure this line is exactly as shown, with no typos
     GS,
-    sent
+    sent,
+    wilshire
 };

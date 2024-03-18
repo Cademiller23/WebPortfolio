@@ -17,7 +17,10 @@ export default {
         },
         blue: {
           500: "#2b77e7"
-        }
+        },
+         offwhite: {
+          500: '#fafaf5'}
+         
       },
       fontFamily: {
         worksans: ["Work Sans", "sans-serif"],

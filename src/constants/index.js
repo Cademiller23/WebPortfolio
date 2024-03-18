@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, Crowd, GS, BC} from "../assets/images";
+import { Crowd, GS, BC, wilshire} from "../assets/images";
 import {
 
     C, 
@@ -8,7 +8,7 @@ import {
     contact,
     css,
     estate,
-    express,
+
     git,
     github,
     html,
@@ -16,13 +16,12 @@ import {
     linkedin,
     mongodb,
     motion,
-    mui,
+
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
+ 
     snapgram,
     summiz,
     tailwindcss,
@@ -146,8 +145,20 @@ export const experiences = [
         points: [
             "Participated in an exclusive Goldman Sachs week-long software engineering program, meticulously designed to enhance expertise in organizational management, foster an innovative corporate culture, and advocate for sustainable programming practices among emerging tech leaders.",
             "Mastered a cutting-edge programming language within a rigorous, time-constrained challenge, demonstrating exceptional adaptability and technical proficiency. This intensive exercise culminated in the successful decryption of complex passwords, showcasing advanced problem-solving capabilities.",
-            "Engaged in hands-on projects focused on developing scalable and sustainable software solutions, employing best practices in code efficiency, maintainability, and environmental consciousness, thereby contributing to the firm’s commitment to technological innovation and sustainability.            ",
+            "Engaged in hands-on projects focused on developing scalable and sustainable software solutions, employing best practices in code efficiency, maintainability, and environmental consciousness, thereby contributing to the firm’s commitment to technological innovation and sustainability.",
             "Collaborated with a select group of peers and industry veterans to devise strategic initiatives aimed at improving Goldman Sachs' software development lifecycle and operational efficiency, ensuring the alignment of technology projects with overarching business goals.",
+        ],
+    }, {
+        title: "Software Engineering Intern",
+        company_name: "Wilshire Advisory Group",
+        icon: wilshire,
+        iconBg: "#36454F",
+        date: "April 2023 - June 2023",
+        points: [
+            "Spearheaded a strategic initiative to transition the existing backend database to a cutting-edge NoSQL architecture. This ambitious project involved in-depth analysis, design, and implementation, leveraging NoSQL's flexible data models to enhance data storage, retrieval, and scalability.",
+            "Demonstrated exceptional analytical skills by executing complex data querying operations across various collections using sophisticated aggregation functions. ",
+            "Engaged in an immersive learning experience by shadowing IT specialists in API creation and frontend development. This unique opportunity allowed me to gain hands-on experience in full stack development practices, understanding the intricacies of integrating backend services with user-facing interfaces.",
+
         ],
     },
     
@@ -162,12 +173,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Cademiller23',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'www.linkedin.com/in/cade-miller-60587824a',
     }
 ];
 
